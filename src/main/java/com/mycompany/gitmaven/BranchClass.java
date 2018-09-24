@@ -12,7 +12,7 @@ package com.mycompany.gitmaven;
 public class BranchClass 
 {
     public String name; 
-    public String versions; 
+    public String version; 
 
     public String getName() {
         return name;
@@ -22,13 +22,22 @@ public class BranchClass
         this.name = name;
     }
 
-    public String getVersions() {
-        return versions;
+    public String getVersion() {
+        return version;
     }
 
-    public void setVersions(String versions) {
-        this.versions = versions;
+    public void setVersion(String version) {
+        this.version = version;
     }
+
+    @Override
+    public String toString() {
+        return "BranchClass{" + "name=" + name + ", version=" + version + '}';
+    }
+
+  
+    
+    
     
     
 }
