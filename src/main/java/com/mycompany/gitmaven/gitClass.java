@@ -14,4 +14,9 @@ public class gitClass {
         System.out.println("Hello world");
     }
     
+    public void test2()
+    {
+        System.out.println("Hello ");
+    }
+    
 }
