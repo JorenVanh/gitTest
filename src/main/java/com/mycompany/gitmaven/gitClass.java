@@ -11,7 +11,7 @@ package com.mycompany.gitmaven;
  */
 public class gitClass {
     public void test(){
-        System.out.println("Hellow world");
+        System.out.println("Hello world");
     }
     
 }
