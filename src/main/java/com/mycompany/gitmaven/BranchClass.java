@@ -14,6 +14,12 @@ public class BranchClass
     public String name; 
     public String version; 
 
+    public BranchClass(String name, String version) {
+        this.name = name;
+        this.version = version;
+    }
+    
+
     public String getName() {
         return name;
     }
